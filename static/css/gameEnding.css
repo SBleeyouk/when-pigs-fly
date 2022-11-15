@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Pangolin&display=swap');
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ending-ment{
+    font-size: 3rem;
+    font-family: 'Pangolin', cursive;
+    color: red;
+    display: block;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.button-place{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+button{
+    flex: 50%;
+    color:white;
+    background-color: transparent;
+    font-size: 24px;
+    top: 90%;
+    height: 56px;
+    width:20rem;
+    margin: 0 auto;
+    font-family: 'Pangolin', cursive;
+    border: 2px solid white;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.home-button{
+    border-radius: 20px 0 0 20px;
+}
+.restart-button{
+    border-radius: 0 20px 20px 0;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+p{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+

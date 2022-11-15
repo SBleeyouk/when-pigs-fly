@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Pangolin&display=swap');
+
+body {
+    background: url("../html-background.png"); 
+    background-size: 100%;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    display: block;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 30px;
+}
+
+.rule-img{
+    display: block;
+    margin: 0 auto;
+    height: 80%;
+}
+
+.step{
+    flex:20%;
+    text-align: center;
+    padding: 10px;
+}
+
+.step-info{
+    width:20rem;
+    margin: 0 auto;
+
+}
+
+p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.button-place{
+    margin-top: 2rem;
+}
+
+.skip-button{
+    display: block;
+    color:#54C1F4;
+    background-color: white;
+    font-size: 24px;
+    top: 90%;
+    height: 56px;
+    width:30rem;
+    font-family: 'Pangolin', cursive;
+    margin:0 auto;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+.skip-button:hover{
+    background-color: #54C1F4;
+    color: white;
+}
