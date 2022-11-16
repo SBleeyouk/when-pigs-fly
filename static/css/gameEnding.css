@@ -19,9 +19,10 @@ body {
     padding: 4rem;
 }
 
-video{
+.ending-img{
     display: block;
     margin: 0 auto;
+    width: 40rem;
 }
 
 .button-place{
@@ -58,10 +59,4 @@ button:hover{
     color: black;
 }
 
-p{
-    font-size: 1.5rem;
-    color: white;
-    text-align: center;
-    font-family: 'Gowun Dodum', sans-serif;
-}
 
