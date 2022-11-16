@@ -85,9 +85,9 @@ function setup(){
 
     brain = ml5.neuralNetwork(options);
     const modelInfo = {
-        model : 'Model-final/model_1116.json',
-        metadata : 'Model-final/model_meta_1116.json',
-        weights: 'Model-final/model_weight_1116.bin',
+        model : 'Model-final/model_ondream.json',
+        metadata : 'Model-final/model_meta_ondream.json',
+        weights: 'Model-final/model_weight_ondream.bin',
     }
     brain.load(modelInfo, brainLoaded)
     //brain.loadData('Model-final/datacollection.json', dataReady());
