@@ -37,7 +37,7 @@ function preload(){
     pigImg[1] = loadImage('static/pig-jump.png');
     pigImg[2] = loadImage('static/pig-fly.png');
 
-    tImg = loadImage('static/pig-run.png')
+    tImg = loadImage('static/truck.png')
     bImg = loadImage('static/back-resize.png')
     htmlbImg = loadImage('static/html-background.png')
     icon = loadImage('static/heart.png')
