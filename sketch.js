@@ -87,7 +87,7 @@ function setup(){
     const modelInfo = {
         model : 'Model-final/model_ondream.json',
         metadata : 'Model-final/model_meta_ondream.json',
-        weights: 'Model-final/model_weight_ondream.bin',
+        weights: 'Model-final/model_weights_ondream.bin',
     }
     brain.load(modelInfo, brainLoaded)
     //brain.loadData('Model-final/datacollection.json', dataReady());
