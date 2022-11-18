@@ -27,7 +27,7 @@ main{
 .rule-img{
     display: block;
     margin: 0 auto;
-    height: 80%;
+    width: 40rem;
 }
 
 .step{
