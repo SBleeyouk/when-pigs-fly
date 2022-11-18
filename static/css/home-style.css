@@ -26,6 +26,12 @@ video{
     margin: 0 auto;
 }
 
+.ending-img{
+    display: block;
+    margin: 0 auto;
+    width: 40rem;
+}
+
 .button-place{
     margin-top: 2rem;
 }
