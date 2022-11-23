@@ -85,9 +85,9 @@ function setup(){
 
     brain = ml5.neuralNetwork(options);
     const modelInfo = {
-        model : 'Model-final/model_atc.json',
-        metadata : 'Model-final/model_meta_atc.json',
-        weights: 'Model-final/model_weights_atc.bin',
+        model : '/Model-final/model_atc.json',
+        metadata : '/Model-final/model_meta_1116.json',
+        weights: '/Model-final/model_weight_1116.bin',
     }
     brain.load(modelInfo, brainLoaded)
     //brain.loadData('Model-final/datacollection.json', dataReady());
@@ -145,6 +145,7 @@ function gotPoses(poses){
               inputs.push(y);
           }
           let target = [targetLabel];
+          console.log(target)
           brain.addData(inputs, target);
         }
       }
@@ -159,7 +160,6 @@ function draw(){
     background('#54C1F4');
       if (pose){
         if (pose.nose.y > 20 && pose.rightAnkle.y < bImg.height*0.3+20){
-            console.log('true')
             prepare = true;
         }
         if (prepare === false){
@@ -243,7 +243,6 @@ function Action(){
         t.move();
         t.show();
         if (pig.hits(t)){
-            console.log('game over');
             heart --;
         }
     }
